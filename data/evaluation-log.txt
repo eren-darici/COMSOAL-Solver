@@ -1,0 +1,3 @@
+İstasyon Denge Gecikmesi: 25.0 %
+Hat Etkinliği: 75.0 %
+Düzgünlük İndeksi: 15.329709716755891

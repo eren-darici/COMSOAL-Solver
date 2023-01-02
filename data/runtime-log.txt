@@ -1,0 +1,809 @@
+Unassigned items: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21']
+-----------
+Iteration 1
+k: 1, v: 0
+k: 2, v: 1
+k: 3, v: 1
+k: 4, v: 1
+k: 5, v: 1
+k: 6, v: 1
+k: 7, v: 1
+k: 8, v: 2
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+k: 21, v: 2
+BList: ['1']
+Station time: 14
+Item time: 4
+ITEM TIME: 4  STATION TIME LEFT: 14
+Flist: ['1']
+Selected: 1
+Time of selected: 4
+Assignments: {1: ['1']}
+Station time left: 10
+   is_elemani  is_suresi      onculler
+1           2          3            []
+2           3          9            []
+3           4          5           [3]
+4           5          9           [4]
+5           6          4           [5]
+6           7          8           [5]
+7           8          7        [6, 7]
+8           9          5           [8]
+9          10          1           [9]
+10         11          3           [9]
+11         12          1           [9]
+12         13          5           [9]
+13         14          3           [7]
+14         15          5  [10, 11, 12]
+15         16          3          [15]
+16         17         13      [13, 16]
+17         18          5      [13, 15]
+18         19          2      [14, 18]
+19         20          3          [17]
+20         21          7        [2, 4]
+-----------
+Iteration 2
+k: 2, v: 0
+k: 3, v: 0
+k: 4, v: 1
+k: 5, v: 1
+k: 6, v: 1
+k: 7, v: 1
+k: 8, v: 2
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+k: 21, v: 2
+BList: ['2', '3']
+Station time: 10
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 10
+Station time: 10
+Item time: 9
+ITEM TIME: 9  STATION TIME LEFT: 10
+Flist: ['2', '3']
+Selected: 3
+Time of selected: 9
+Assignments: {1: ['1', '3']}
+Station time left: 1
+-----------
+Iteration 3
+k: 2, v: 0
+k: 4, v: 0
+k: 5, v: 1
+k: 6, v: 1
+k: 7, v: 1
+k: 8, v: 2
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+k: 21, v: 2
+BList: ['2', '4']
+Station time: 1
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 1
+Station time: 1
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 1
+Flist: []
+-----------
+Iteration 3
+k: 2, v: 0
+k: 4, v: 0
+k: 5, v: 1
+k: 6, v: 1
+k: 7, v: 1
+k: 8, v: 2
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+k: 21, v: 2
+BList: ['2', '4']
+Station time: 14
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 14
+Station time: 14
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 14
+Flist: ['2', '4']
+Selected: 4
+Time of selected: 5
+Assignments: {1: ['1', '3'], 2: ['4']}
+Station time left: 9
+-----------
+Iteration 4
+k: 2, v: 0
+k: 5, v: 0
+k: 6, v: 1
+k: 7, v: 1
+k: 8, v: 2
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+k: 21, v: 1
+BList: ['2', '5']
+Station time: 9
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 9
+Station time: 9
+Item time: 9
+ITEM TIME: 9  STATION TIME LEFT: 9
+Flist: ['2', '5']
+Selected: 2
+Time of selected: 3
+Assignments: {1: ['1', '3'], 2: ['4', '2']}
+Station time left: 6
+-----------
+Iteration 5
+k: 5, v: 0
+k: 6, v: 1
+k: 7, v: 1
+k: 8, v: 2
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+k: 21, v: 0
+BList: ['5', '21']
+Station time: 6
+Item time: 9
+ITEM TIME: 9  STATION TIME LEFT: 6
+Station time: 6
+Item time: 7
+ITEM TIME: 7  STATION TIME LEFT: 6
+Flist: []
+-----------
+Iteration 5
+k: 5, v: 0
+k: 6, v: 1
+k: 7, v: 1
+k: 8, v: 2
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+k: 21, v: 0
+BList: ['5', '21']
+Station time: 14
+Item time: 9
+ITEM TIME: 9  STATION TIME LEFT: 14
+Station time: 14
+Item time: 7
+ITEM TIME: 7  STATION TIME LEFT: 14
+Flist: ['5', '21']
+Selected: 21
+Time of selected: 7
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21']}
+Station time left: 7
+-----------
+Iteration 6
+k: 5, v: 0
+k: 6, v: 1
+k: 7, v: 1
+k: 8, v: 2
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+BList: ['5']
+Station time: 7
+Item time: 9
+ITEM TIME: 9  STATION TIME LEFT: 7
+Flist: []
+-----------
+Iteration 6
+k: 5, v: 0
+k: 6, v: 1
+k: 7, v: 1
+k: 8, v: 2
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+BList: ['5']
+Station time: 14
+Item time: 9
+ITEM TIME: 9  STATION TIME LEFT: 14
+Flist: ['5']
+Selected: 5
+Time of selected: 9
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5']}
+Station time left: 5
+   is_elemani  is_suresi      onculler
+5           6          4            []
+6           7          8            []
+7           8          7        [6, 7]
+8           9          5           [8]
+9          10          1           [9]
+10         11          3           [9]
+11         12          1           [9]
+12         13          5           [9]
+13         14          3           [7]
+14         15          5  [10, 11, 12]
+15         16          3          [15]
+16         17         13      [13, 16]
+17         18          5      [13, 15]
+18         19          2      [14, 18]
+19         20          3          [17]
+-----------
+Iteration 7
+k: 6, v: 0
+k: 7, v: 0
+k: 8, v: 2
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+BList: ['6', '7']
+Station time: 5
+Item time: 4
+ITEM TIME: 4  STATION TIME LEFT: 5
+Station time: 5
+Item time: 8
+ITEM TIME: 8  STATION TIME LEFT: 5
+Flist: ['6']
+Selected: 6
+Time of selected: 4
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6']}
+Station time left: 1
+   is_elemani  is_suresi      onculler
+6           7          8            []
+7           8          7           [7]
+8           9          5           [8]
+9          10          1           [9]
+10         11          3           [9]
+11         12          1           [9]
+12         13          5           [9]
+13         14          3           [7]
+14         15          5  [10, 11, 12]
+15         16          3          [15]
+16         17         13      [13, 16]
+17         18          5      [13, 15]
+18         19          2      [14, 18]
+19         20          3          [17]
+-----------
+Iteration 8
+k: 7, v: 0
+k: 8, v: 1
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+BList: ['7']
+Station time: 1
+Item time: 8
+ITEM TIME: 8  STATION TIME LEFT: 1
+Flist: []
+-----------
+Iteration 8
+k: 7, v: 0
+k: 8, v: 1
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+BList: ['7']
+Station time: 14
+Item time: 8
+ITEM TIME: 8  STATION TIME LEFT: 14
+Flist: ['7']
+Selected: 7
+Time of selected: 8
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7']}
+Station time left: 6
+   is_elemani  is_suresi      onculler
+7           8          7            []
+8           9          5           [8]
+9          10          1           [9]
+10         11          3           [9]
+11         12          1           [9]
+12         13          5           [9]
+13         14          3            []
+14         15          5  [10, 11, 12]
+15         16          3          [15]
+16         17         13      [13, 16]
+17         18          5      [13, 15]
+18         19          2      [14, 18]
+19         20          3          [17]
+-----------
+Iteration 9
+k: 8, v: 0
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 14, v: 0
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 2
+k: 20, v: 1
+BList: ['8', '14']
+Station time: 6
+Item time: 7
+ITEM TIME: 7  STATION TIME LEFT: 6
+Station time: 6
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 6
+Flist: ['14']
+Selected: 14
+Time of selected: 3
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14']}
+Station time left: 3
+   is_elemani  is_suresi      onculler
+7           8          7            []
+8           9          5           [8]
+9          10          1           [9]
+10         11          3           [9]
+11         12          1           [9]
+12         13          5           [9]
+14         15          5  [10, 11, 12]
+15         16          3          [15]
+16         17         13      [13, 16]
+17         18          5      [13, 15]
+18         19          2          [18]
+19         20          3          [17]
+-----------
+Iteration 10
+k: 8, v: 0
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 1
+k: 20, v: 1
+BList: ['8']
+Station time: 3
+Item time: 7
+ITEM TIME: 7  STATION TIME LEFT: 3
+Flist: []
+-----------
+Iteration 10
+k: 8, v: 0
+k: 9, v: 1
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 1
+k: 20, v: 1
+BList: ['8']
+Station time: 14
+Item time: 7
+ITEM TIME: 7  STATION TIME LEFT: 14
+Flist: ['8']
+Selected: 8
+Time of selected: 7
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8']}
+Station time left: 7
+   is_elemani  is_suresi      onculler
+8           9          5            []
+9          10          1           [9]
+10         11          3           [9]
+11         12          1           [9]
+12         13          5           [9]
+14         15          5  [10, 11, 12]
+15         16          3          [15]
+16         17         13      [13, 16]
+17         18          5      [13, 15]
+18         19          2          [18]
+19         20          3          [17]
+-----------
+Iteration 11
+k: 9, v: 0
+k: 10, v: 1
+k: 11, v: 1
+k: 12, v: 1
+k: 13, v: 1
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 1
+k: 20, v: 1
+BList: ['9']
+Station time: 7
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 7
+Flist: ['9']
+Selected: 9
+Time of selected: 5
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9']}
+Station time left: 2
+   is_elemani  is_suresi      onculler
+9          10          1            []
+10         11          3            []
+11         12          1            []
+12         13          5            []
+14         15          5  [10, 11, 12]
+15         16          3          [15]
+16         17         13      [13, 16]
+17         18          5      [13, 15]
+18         19          2          [18]
+19         20          3          [17]
+-----------
+Iteration 12
+k: 10, v: 0
+k: 11, v: 0
+k: 12, v: 0
+k: 13, v: 0
+k: 15, v: 3
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 1
+k: 20, v: 1
+BList: ['10', '11', '12', '13']
+Station time: 2
+Item time: 1
+ITEM TIME: 1  STATION TIME LEFT: 2
+Station time: 2
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 2
+Station time: 2
+Item time: 1
+ITEM TIME: 1  STATION TIME LEFT: 2
+Station time: 2
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 2
+Flist: ['10', '12']
+Selected: 12
+Time of selected: 1
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9', '12']}
+Station time left: 1
+-----------
+Iteration 13
+k: 10, v: 0
+k: 11, v: 0
+k: 13, v: 0
+k: 15, v: 2
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 1
+k: 20, v: 1
+BList: ['10', '11', '13']
+Station time: 1
+Item time: 1
+ITEM TIME: 1  STATION TIME LEFT: 1
+Station time: 1
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 1
+Station time: 1
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 1
+Flist: ['10']
+Selected: 10
+Time of selected: 1
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9', '12', '10']}
+Station time left: 0
+   is_elemani  is_suresi  onculler
+10         11          3        []
+12         13          5        []
+14         15          5      [11]
+15         16          3      [15]
+16         17         13  [13, 16]
+17         18          5  [13, 15]
+18         19          2      [18]
+19         20          3      [17]
+-----------
+Iteration 14
+k: 11, v: 0
+k: 13, v: 0
+k: 15, v: 1
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 1
+k: 20, v: 1
+BList: ['11', '13']
+Station time: 0
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 0
+Station time: 0
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 0
+Flist: []
+-----------
+Iteration 14
+k: 11, v: 0
+k: 13, v: 0
+k: 15, v: 1
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 1
+k: 20, v: 1
+BList: ['11', '13']
+Station time: 14
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 14
+Station time: 14
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 14
+Flist: ['11', '13']
+Selected: 11
+Time of selected: 3
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9', '12', '10'], 7: ['11']}
+Station time left: 11
+-----------
+Iteration 15
+k: 13, v: 0
+k: 15, v: 0
+k: 16, v: 1
+k: 17, v: 2
+k: 18, v: 2
+k: 19, v: 1
+k: 20, v: 1
+BList: ['13', '15']
+Station time: 11
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 11
+Station time: 11
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 11
+Flist: ['13', '15']
+Selected: 13
+Time of selected: 5
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9', '12', '10'], 7: ['11', '13']}
+Station time left: 6
+-----------
+Iteration 16
+k: 15, v: 0
+k: 16, v: 1
+k: 17, v: 1
+k: 18, v: 1
+k: 19, v: 1
+k: 20, v: 1
+BList: ['15']
+Station time: 6
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 6
+Flist: ['15']
+Selected: 15
+Time of selected: 5
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9', '12', '10'], 7: ['11', '13', '15']}
+Station time left: 1
+   is_elemani  is_suresi onculler
+15         16          3       []
+16         17         13     [16]
+17         18          5       []
+18         19          2     [18]
+19         20          3     [17]
+-----------
+Iteration 17
+k: 16, v: 0
+k: 17, v: 1
+k: 18, v: 0
+k: 19, v: 1
+k: 20, v: 1
+BList: ['16', '18']
+Station time: 1
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 1
+Station time: 1
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 1
+Flist: []
+-----------
+Iteration 17
+k: 16, v: 0
+k: 17, v: 1
+k: 18, v: 0
+k: 19, v: 1
+k: 20, v: 1
+BList: ['16', '18']
+Station time: 14
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 14
+Station time: 14
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 14
+Flist: ['16', '18']
+Selected: 16
+Time of selected: 3
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9', '12', '10'], 7: ['11', '13', '15'], 8: ['16']}
+Station time left: 11
+-----------
+Iteration 18
+k: 17, v: 0
+k: 18, v: 0
+k: 19, v: 1
+k: 20, v: 1
+BList: ['17', '18']
+Station time: 11
+Item time: 13
+ITEM TIME: 13  STATION TIME LEFT: 11
+Station time: 11
+Item time: 5
+ITEM TIME: 5  STATION TIME LEFT: 11
+Flist: ['18']
+Selected: 18
+Time of selected: 5
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9', '12', '10'], 7: ['11', '13', '15'], 8: ['16', '18']}
+Station time left: 6
+   is_elemani  is_suresi onculler
+16         17         13       []
+18         19          2       []
+19         20          3     [17]
+-----------
+Iteration 19
+k: 17, v: 0
+k: 19, v: 0
+k: 20, v: 1
+BList: ['17', '19']
+Station time: 6
+Item time: 13
+ITEM TIME: 13  STATION TIME LEFT: 6
+Station time: 6
+Item time: 2
+ITEM TIME: 2  STATION TIME LEFT: 6
+Flist: ['19']
+Selected: 19
+Time of selected: 2
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9', '12', '10'], 7: ['11', '13', '15'], 8: ['16', '18', '19']}
+Station time left: 4
+   is_elemani  is_suresi onculler
+16         17         13       []
+19         20          3     [17]
+-----------
+Iteration 20
+k: 17, v: 0
+k: 20, v: 1
+BList: ['17']
+Station time: 4
+Item time: 13
+ITEM TIME: 13  STATION TIME LEFT: 4
+Flist: []
+-----------
+Iteration 20
+k: 17, v: 0
+k: 20, v: 1
+BList: ['17']
+Station time: 14
+Item time: 13
+ITEM TIME: 13  STATION TIME LEFT: 14
+Flist: ['17']
+Selected: 17
+Time of selected: 13
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9', '12', '10'], 7: ['11', '13', '15'], 8: ['16', '18', '19'], 9: ['17']}
+Station time left: 1
+   is_elemani  is_suresi onculler
+19         20          3       []
+-----------
+Iteration 21
+k: 20, v: 0
+BList: ['20']
+Station time: 1
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 1
+Flist: []
+-----------
+Iteration 21
+k: 20, v: 0
+BList: ['20']
+Station time: 14
+Item time: 3
+ITEM TIME: 3  STATION TIME LEFT: 14
+Flist: ['20']
+Selected: 20
+Time of selected: 3
+Assignments: {1: ['1', '3'], 2: ['4', '2'], 3: ['21'], 4: ['5', '6'], 5: ['7', '14'], 6: ['8', '9', '12', '10'], 7: ['11', '13', '15'], 8: ['16', '18', '19'], 9: ['17'], 10: ['20']}
+Station time left: 11
+Empty DataFrame
+Columns: [is_elemani, is_suresi, onculler]
+Index: []
