@@ -11,6 +11,10 @@ class COMSOAL:
         self.original_data = self.__read_data(filepath=data_path)
         self.data = self.original_data.copy()
         self.C = C
+
+        if not os.path.exists('data/'):
+            os.mkdir('data/')
+
         if os.path.exists('data/runtime-log.txt'):
             os.remove('data/runtime-log.txt')
 
