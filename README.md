@@ -14,7 +14,7 @@ Made for Production Systems Analysis Lecture.
 
 | is_elemani | is_suresi     | onculler                |
 | :-------- | :------- | :------------------------- |
-| `name of the job` | `time required for the job` | `precedences of the job` |
+| `name of the job` | `time required for the job` | `predecessors of the job` |
 
 #### Initializing the solver
 
